@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IntelSeg — Seguro Inteligente | IntelGroup</title>
+  <meta name="description" content="IntelSeg: seguro inteligente para quem pensa no futuro. Protecao sob medida com preco justo e atendimento humano. Cotacao em ate 30 minutos.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔒</text></svg>">
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="particles-canvas"></canvas>
+  <div class="grid-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🔒</div>
+        <span class="logo-text-seg">IntelSeg</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="intelseg.html" class="active">IntelSeg</a></li>
+        <li><a href="intelcon.html">IntelCon</a></li>
+        <li><a href="#seguros">Seguros</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato" class="nav-cta">Fazer Cotacao</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        IntelGroup — Corretora de Seguros
+      </div>
+      <h1>
+        Seguro inteligente para<br>
+        <span class="gradient-text-seg">quem pensa no futuro.</span>
+      </h1>
+      <p class="hero-subtitle">
+        A pergunta nao e se algo vai acontecer.
+        E como voce e sua familia ficam quando acontecer.
+        Protecao sob medida, preco justo e atendimento humano.
+      </p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/5522999999999" target="_blank" class="btn btn-primary-seg">Simular Agora</a>
+        <a href="#seguros" class="btn btn-outline">Ver Seguros</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Ticker -->
+  <div class="ticker-wrapper">
+    <div class="ticker">
+      <span class="ticker-item">Cotacao em 30 min <span class="sep">◆</span></span>
+      <span class="ticker-item">Suporte 24h <span class="sep">◆</span></span>
+      <span class="ticker-item">Atendimento Humano <span class="sep">◆</span></span>
+      <span class="ticker-item">Todas as Seguradoras <span class="sep">◆</span></span>
+      <span class="ticker-item">Preco Justo <span class="sep">◆</span></span>
+      <span class="ticker-item">Sem Enrolacao <span class="sep">◆</span></span>
+      <span class="ticker-item">Atendimento Nacional <span class="sep">◆</span></span>
+      <span class="ticker-item">Protecao sob Medida <span class="sep">◆</span></span>
+      <!-- Duplicate -->
+      <span class="ticker-item">Cotacao em 30 min <span class="sep">◆</span></span>
+      <span class="ticker-item">Suporte 24h <span class="sep">◆</span></span>
+      <span class="ticker-item">Atendimento Humano <span class="sep">◆</span></span>
+      <span class="ticker-item">Todas as Seguradoras <span class="sep">◆</span></span>
+      <span class="ticker-item">Preco Justo <span class="sep">◆</span></span>
+      <span class="ticker-item">Sem Enrolacao <span class="sep">◆</span></span>
+      <span class="ticker-item">Atendimento Nacional <span class="sep">◆</span></span>
+      <span class="ticker-item">Protecao sob Medida <span class="sep">◆</span></span>
+    </div>
+  </div>
+
+  <!-- Why IntelSeg -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Por que a IntelSeg</span>
+        <h2>Seguro nao precisa ser complicado.</h2>
+        <p>Precisa funcionar quando voce mais precisa. Aqui o foco e protecao de verdade, sem termos dificeis e sem seguros desnecessarios.</p>
+      </div>
+
+      <div class="features-grid stagger-children">
+        <div class="glass-card feature-card reveal">
+          <div class="feature-icon">👤</div>
+          <h3>Atendimento humano</h3>
+          <p>Direto e claro. Voce fala com gente de verdade que entende sua necessidade.</p>
+        </div>
+        <div class="glass-card feature-card reveal">
+          <div class="feature-icon">🎯</div>
+          <h3>Cotacao personalizada</h3>
+          <p>Pensada na sua realidade. Sem coberturas inuteis que so encarecem o seguro.</p>
+        </div>
+        <div class="glass-card feature-card reveal">
+          <div class="feature-icon">🏢</div>
+          <h3>Todas as seguradoras</h3>
+          <p>Parceria com todas as seguradoras do mercado para encontrar a melhor opcao para voce.</p>
+        </div>
+        <div class="glass-card feature-card reveal">
+          <div class="feature-icon">🚨</div>
+          <h3>Suporte 24h</h3>
+          <p>Quando voce precisar, estaremos prontos para ajudar. Dia ou noite.</p>
+        </div>
+        <div class="glass-card feature-card reveal">
+          <div class="feature-icon">⏱️</div>
+          <h3>Cotacao em 30 min</h3>
+          <p>Rapidez sem perder qualidade. Sua cotacao em ate 30 minutos.</p>
+        </div>
+        <div class="glass-card feature-card reveal">
+          <div class="feature-icon">💰</div>
+          <h3>Preco justo</h3>
+          <p>Protecao de verdade pelo valor que cabe no seu bolso. Sem surpresas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="glow-divider"></div>
+
+  <!-- Services Grid -->
+  <section class="section" id="seguros">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Nossos Seguros</span>
+        <h2>Todas as modalidades que voce precisa</h2>
+        <p>Trabalhamos com as principais modalidades do mercado. A cotacao e gratuita e os valores variam de acordo com seu perfil e necessidade.</p>
+      </div>
+
+      <div class="services-grid stagger-children">
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">🚗</span>
+          <h3>Seguro Auto</h3>
+          <p>Carro, moto e veiculos pesados. Tranquilidade quando voce mais precisa.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">🏠</span>
+          <h3>Seguro Residencial</h3>
+          <p>Protecao para seu imovel e patrimonio contra imprevistos.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">🏢</span>
+          <h3>Seguro Empresarial</h3>
+          <p>Seguranca e continuidade para o seu negocio.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">❤️</span>
+          <h3>Seguro de Vida</h3>
+          <p>Protecao financeira e tranquilidade para sua familia.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">✈️</span>
+          <h3>Seguro Viagem</h3>
+          <p>Viaje tranquilo com cobertura completa.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">⚖️</span>
+          <h3>RCP Profissional</h3>
+          <p>Responsabilidade civil para profissionais liberais.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">📱</span>
+          <h3>Equipamentos</h3>
+          <p>Protecao para eletronicos e equipamentos de valor.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">🚲</span>
+          <h3>Bicicletas</h3>
+          <p>Seguro completo para sua bike.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">🚚</span>
+          <h3>Transportes</h3>
+          <p>Cobertura para cargas e operacoes logisticas.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">🏗️</span>
+          <h3>Engenharia</h3>
+          <p>Seguros para obras e projetos de engenharia.</p>
+        </div>
+        <div class="glass-card service-card reveal">
+          <span class="service-icon">🏥</span>
+          <h3>Planos de Saude</h3>
+          <p>Planos para voce, sua familia ou sua empresa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="glow-divider"></div>
+
+  <!-- Highlight: Seguro de Vida -->
+  <section class="section">
+    <div class="container">
+      <div class="highlight-section">
+        <div class="highlight-visual reveal-left">
+          <span class="visual-icon">❤️</span>
+        </div>
+        <div class="highlight-content reveal-right">
+          <div class="accent-line accent-line-seg"></div>
+          <h3>Seguro de Vida</h3>
+          <p>Protecao financeira, tranquilidade e planejamento. Se algo acontecer, sua familia nao fica desamparada.</p>
+          <ul>
+            <li><span class="check">✓</span> Planos acessiveis e personalizados</li>
+            <li><span class="check">✓</span> Valores que cabem no seu bolso</li>
+            <li><span class="check">✓</span> Cobertura completa e transparente</li>
+          </ul>
+          <a href="https://wa.me/5522999999999" target="_blank" class="btn btn-primary-seg">Fazer Cotacao →</a>
+        </div>
+      </div>
+
+      <!-- Highlight: Seguro Residencial -->
+      <div class="highlight-section reverse">
+        <div class="highlight-visual reveal-right">
+          <span class="visual-icon">🏠</span>
+        </div>
+        <div class="highlight-content reveal-left">
+          <div class="accent-line accent-line-seg"></div>
+          <h3>Seguro Residencial e Comercial</h3>
+          <p>Chuva forte nao avisa. Enchente tambem nao. Quando o prejuizo chega, e tarde para correr atras.</p>
+          <ul>
+            <li><span class="check">✓</span> Cobertura contra enchentes</li>
+            <li><span class="check">✓</span> Protecao para imovel e patrimonio</li>
+            <li><span class="check">✓</span> Seguranca para sua familia ou empresa</li>
+          </ul>
+          <a href="https://wa.me/5522999999999" target="_blank" class="btn btn-primary-seg">Fazer Cotacao →</a>
+        </div>
+      </div>
+
+      <!-- Highlight: Seguro Auto -->
+      <div class="highlight-section">
+        <div class="highlight-visual reveal-left">
+          <span class="visual-icon">🚗</span>
+        </div>
+        <div class="highlight-content reveal-right">
+          <div class="accent-line accent-line-seg"></div>
+          <h3>Seguro Auto</h3>
+          <p>Voce sai de casa achando que vai dar tudo certo. E quase sempre da. Mas quando nao da... seguro auto nao e gasto. E tranquilidade.</p>
+          <ul>
+            <li><span class="check">✓</span> Carro, moto e veiculos pesados</li>
+            <li><span class="check">✓</span> Guincho e assistencia 24h</li>
+            <li><span class="check">✓</span> As melhores seguradoras do mercado</li>
+          </ul>
+          <a href="https://wa.me/5522999999999" target="_blank" class="btn btn-primary-seg">Fazer Cotacao →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="glow-divider"></div>
+
+  <!-- About Section -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-image-placeholder">
+            <span style="position:relative; z-index:1; font-size: 5rem; opacity: 0.4;">🔒</span>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <div class="accent-line accent-line-seg"></div>
+          <span class="section-label">// Quem esta por tras</span>
+          <h3 style="margin-top: 0.5rem;">Jean Nunes Veloso</h3>
+          <p>
+            A IntelSeg faz parte do IntelGroup. A frente da corretora esta <strong>Jean Nunes Veloso</strong>, profissional com mais de 12 anos de experiencia no mercado, que entende que cada cliente e unico e precisa de uma protecao feita sob medida.
+          </p>
+          <p>
+            Aqui voce fala com gente de verdade. Sem robo. Sem enrolacao.
+          </p>
+          <div class="credentials">
+            <div class="credential-item">
+              <span class="icon">▸</span>
+              <span>+12 anos de experiencia no mercado de seguros</span>
+            </div>
+            <div class="credential-item">
+              <span class="icon">▸</span>
+              <span>Parceria com todas as seguradoras</span>
+            </div>
+            <div class="credential-item">
+              <span class="icon">▸</span>
+              <span>Atendimento personalizado e humanizado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Cards: Horario & Localizacao -->
+  <section class="section">
+    <div class="container">
+      <div class="info-grid stagger-children">
+        <div class="glass-card info-card reveal">
+          <h4>📍 Localizacao</h4>
+          <p>Praca Getulio Vargas, 19 — Miracema/RJ</p>
+          <p style="margin-top: 0.5rem;">Atendimento em todo o Brasil</p>
+        </div>
+        <div class="glass-card info-card reveal">
+          <h4>🕗 Horario de Atendimento</h4>
+          <ul>
+            <li>Segunda a sexta — 08h as 18h</li>
+            <li>Suporte 24h para clientes</li>
+          </ul>
+        </div>
+        <div class="glass-card info-card reveal">
+          <h4>📲 Contato Rapido</h4>
+          <p>Cotacao gratuita em ate 30 minutos.</p>
+          <a href="https://wa.me/5522999999999" target="_blank" class="btn btn-primary-seg" style="margin-top: 1rem; padding: 10px 20px; font-size: 0.85rem;">Falar no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section" id="contato">
+    <div class="cta-box reveal-scale">
+      <span class="code-tag">&lt;intelseg/&gt;</span>
+      <h2 style="margin-top: 1rem;">Seguro inteligente e isso:<br>proteger o que importa, do jeito certo.</h2>
+      <p>Entre em contato e receba sua cotacao em ate 30 minutos. Sem compromisso.</p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/5522999999999" target="_blank" class="btn btn-primary-seg">Simular Agora</a>
+        <a href="index.html" class="btn btn-outline">Voltar ao IntelGroup</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-icon">🔒</div>
+          <span class="logo-text-seg">IntelSeg</span>
+        </div>
+        <p>Seguro inteligente para quem pensa no futuro. Uma empresa do IntelGroup.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Grupo</h4>
+        <ul>
+          <li><a href="index.html">IntelGroup</a></li>
+          <li><a href="intelcon.html">IntelCon — Contabilidade</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Seguros</h4>
+        <ul>
+          <li><a href="#seguros">Seguro Auto</a></li>
+          <li><a href="#seguros">Seguro de Vida</a></li>
+          <li><a href="#seguros">Seguro Residencial</a></li>
+          <li><a href="#seguros">Seguro Empresarial</a></li>
+          <li><a href="#seguros">Planos de Saude</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="https://wa.me/5522999999999" target="_blank">WhatsApp</a></li>
+          <li><a href="mailto:contato@intelseg.com.br">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 IntelSeg — IntelGroup. Todos os direitos reservados.</span>
+      <span>Praca Getulio Vargas, 19 — Miracema/RJ</span>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/5522999999999" target="_blank" class="whatsapp-float" title="Fale conosco no WhatsApp">
+    💬
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
